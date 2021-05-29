@@ -65,7 +65,7 @@ All vehicles support a huge number of channels - the following list shows the st
 | autoconditioning | Switch             | Auto Conditioning  | Turns on auto-conditioning (a/c or heating)                                                 |
 | batterylevel     | Number             | Battery Level      | State of the battery in %                                                                   |
 | chargingstate    | String             | Charging State     | “Starting”, “Complete”, “Charging”, “Disconnected”, “Stopped”, “NoPower”                    |
-| chargeport       | Switch             | Charge Port        | Open the Charge Port (ON) or indicates the state of the Charge Port (ON/OFF if Open/Closed) |
+| chargeport       | Switch             | Charge Port        | Open the Charge Port (ON) or indicates the state of the Charge Port (ON/OFF if Open/Closed). Also (ON) unlocks the charge port if it is locked. |
 | climate          | Switch             | Climate            | Climate status indicator                                                                    |
 | doorlock         | Switch             | Door Lock          | Lock or unlock the car                                                                      |
 | insidetemp       | Number:Temperature | Inside Temperature | Indicates the inside temperature of the vehicle                                             |
